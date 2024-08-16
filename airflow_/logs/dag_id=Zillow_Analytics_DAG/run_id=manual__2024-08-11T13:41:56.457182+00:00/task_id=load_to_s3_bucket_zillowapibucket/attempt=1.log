@@ -1,0 +1,21 @@
+[2024-08-11T13:42:00.906+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-11T13:42:00.915+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Zillow_Analytics_DAG.load_to_s3_bucket_zillowapibucket manual__2024-08-11T13:41:56.457182+00:00 [queued]>
+[2024-08-11T13:42:00.920+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Zillow_Analytics_DAG.load_to_s3_bucket_zillowapibucket manual__2024-08-11T13:41:56.457182+00:00 [queued]>
+[2024-08-11T13:42:00.920+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-08-11T13:42:00.937+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): load_to_s3_bucket_zillowapibucket> on 2024-08-11 13:41:56.457182+00:00
+[2024-08-11T13:42:00.940+0000] {standard_task_runner.py:64} INFO - Started process 7032 to run task
+[2024-08-11T13:42:00.943+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'Zillow_Analytics_DAG', 'load_to_s3_bucket_zillowapibucket', 'manual__2024-08-11T13:41:56.457182+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/zillowrapidapi.py', '--cfg-path', '/tmp/tmpcbgg9g6s']
+[2024-08-11T13:42:00.944+0000] {standard_task_runner.py:91} INFO - Job 89: Subtask load_to_s3_bucket_zillowapibucket
+[2024-08-11T13:42:00.979+0000] {task_command.py:426} INFO - Running <TaskInstance: Zillow_Analytics_DAG.load_to_s3_bucket_zillowapibucket manual__2024-08-11T13:41:56.457182+00:00 [running]> on host ip-172-31-11-55.ap-south-1.compute.internal
+[2024-08-11T13:42:01.049+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='vkkr800@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Zillow_Analytics_DAG' AIRFLOW_CTX_TASK_ID='load_to_s3_bucket_zillowapibucket' AIRFLOW_CTX_EXECUTION_DATE='2024-08-11T13:41:56.457182+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-11T13:41:56.457182+00:00'
+[2024-08-11T13:42:01.050+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-11T13:42:01.060+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-08-11T13:42:01.060+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'aws s3 mv /home/ubuntu/response_data_11082024134158.json s3://zillow-api-bucket-1st/']
+[2024-08-11T13:42:01.067+0000] {subprocess.py:86} INFO - Output:
+[2024-08-11T13:42:01.647+0000] {subprocess.py:93} INFO - Completed 165 Bytes/165 Bytes (1.1 KiB/s) with 1 file(s) remainingmove: ../../home/ubuntu/response_data_11082024134158.json to s3://zillow-api-bucket-1st/response_data_11082024134158.json
+[2024-08-11T13:42:01.720+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-08-11T13:42:01.720+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-11T13:42:01.741+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=Zillow_Analytics_DAG, task_id=load_to_s3_bucket_zillowapibucket, run_id=manual__2024-08-11T13:41:56.457182+00:00, execution_date=20240811T134156, start_date=20240811T134200, end_date=20240811T134201
+[2024-08-11T13:42:01.800+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-11T13:42:01.814+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-11T13:42:01.823+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

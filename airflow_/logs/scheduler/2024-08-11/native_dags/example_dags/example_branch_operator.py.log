@@ -1,0 +1,25 @@
+[2024-08-11T08:30:24.458+0000] {processor.py:161} INFO - Started process (PID=3005) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:30:24.459+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-08-11T08:30:24.461+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:24.460+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:30:24.465+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:30:24.475+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py took 0.023 seconds
+[2024-08-11T08:31:29.983+0000] {processor.py:161} INFO - Started process (PID=3251) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:31:29.984+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-08-11T08:31:29.985+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:29.985+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:31:29.989+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:31:30.000+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py took 0.023 seconds
+[2024-08-11T08:32:28.571+0000] {processor.py:161} INFO - Started process (PID=3314) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:32:28.573+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-08-11T08:32:28.575+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:28.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:32:28.577+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:32:28.588+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py took 0.023 seconds
+[2024-08-11T08:33:27.103+0000] {processor.py:161} INFO - Started process (PID=3377) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:33:27.105+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-08-11T08:33:27.107+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:27.107+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:33:27.109+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:33:27.119+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py took 0.023 seconds
+[2024-08-11T08:34:27.153+0000] {processor.py:161} INFO - Started process (PID=3442) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:34:27.156+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-08-11T08:34:27.157+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:27.157+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:34:27.160+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-08-11T08:34:27.169+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py took 0.021 seconds

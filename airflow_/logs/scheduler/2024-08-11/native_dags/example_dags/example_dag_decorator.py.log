@@ -1,0 +1,39 @@
+[2024-08-11T08:30:23.124+0000] {processor.py:161} INFO - Started process (PID=3004) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:30:23.125+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-08-11T08:30:23.126+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:23.126+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:30:23.208+0000] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:30:23.312+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:23.312+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2024-08-11T08:30:23.326+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:23.326+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2024-08-11T08:30:23.336+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:23.336+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2024-08-11T08:30:23.336+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:23.336+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:30:23.346+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:23.346+0000] {dag.py:3111} INFO - Creating ORM DAG for example_dag_decorator
+[2024-08-11T08:30:23.346+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:23.346+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-08-11T08:30:23.367+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.249 seconds
+[2024-08-11T08:31:28.741+0000] {processor.py:161} INFO - Started process (PID=3250) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:31:28.742+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-08-11T08:31:28.744+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:28.743+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:31:28.803+0000] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:31:28.868+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:28.868+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:31:28.875+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:28.874+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-08-11T08:31:28.893+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.157 seconds
+[2024-08-11T08:32:27.218+0000] {processor.py:161} INFO - Started process (PID=3313) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:32:27.220+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-08-11T08:32:27.221+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:27.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:32:27.299+0000] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:32:27.385+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:27.385+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:32:27.393+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:27.393+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-08-11T08:32:27.417+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.204 seconds
+[2024-08-11T08:33:26.497+0000] {processor.py:161} INFO - Started process (PID=3376) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:33:26.499+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-08-11T08:33:26.501+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:26.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:33:26.579+0000] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:33:26.667+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:26.666+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:33:26.675+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:26.674+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-08-11T08:33:26.699+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.208 seconds
+[2024-08-11T08:34:25.821+0000] {processor.py:161} INFO - Started process (PID=3441) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:34:25.824+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-08-11T08:34:25.825+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:25.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:34:25.903+0000] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-08-11T08:34:25.991+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:25.991+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:34:25.998+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:25.998+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-08-11T08:34:26.024+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.209 seconds

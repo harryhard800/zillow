@@ -1,0 +1,46 @@
+[2024-08-11T08:30:10.888+0000] {processor.py:161} INFO - Started process (PID=2988) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:30:10.889+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-08-11T08:30:10.890+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:10.890+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:30:10.896+0000] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:30:11.002+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.002+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_params_ui_tutorial
+[2024-08-11T08:30:11.016+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.016+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_params_ui_tutorial
+[2024-08-11T08:30:11.028+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.027+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_params_ui_tutorial
+[2024-08-11T08:30:11.028+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.028+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:30:11.035+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.035+0000] {dag.py:3111} INFO - Creating ORM DAG for example_params_ui_tutorial
+[2024-08-11T08:30:11.035+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.035+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-08-11T08:30:11.058+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.174 seconds
+[2024-08-11T08:31:01.475+0000] {processor.py:161} INFO - Started process (PID=3216) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:31:01.477+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-08-11T08:31:01.478+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:01.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:31:01.484+0000] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:31:01.512+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:01.512+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:31:01.520+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:01.520+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-08-11T08:31:01.537+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.066 seconds
+[2024-08-11T08:31:50.547+0000] {processor.py:161} INFO - Started process (PID=3275) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:31:50.550+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-08-11T08:31:50.551+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:50.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:31:50.558+0000] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:31:50.595+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:50.595+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:31:50.605+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:50.605+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-08-11T08:31:50.627+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.087 seconds
+[2024-08-11T08:32:51.088+0000] {processor.py:161} INFO - Started process (PID=3337) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:32:51.090+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-08-11T08:32:51.092+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:51.092+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:32:51.098+0000] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:32:51.136+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:51.136+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:32:51.146+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:51.146+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-08-11T08:32:51.169+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.088 seconds
+[2024-08-11T08:33:47.077+0000] {processor.py:161} INFO - Started process (PID=3398) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:33:47.079+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-08-11T08:33:47.081+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:47.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:33:47.088+0000] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:33:47.124+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:47.124+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:33:47.134+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:47.134+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-08-11T08:33:47.158+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.086 seconds
+[2024-08-11T08:34:47.532+0000] {processor.py:161} INFO - Started process (PID=3466) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:34:47.534+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-08-11T08:34:47.535+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:47.534+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:34:47.541+0000] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-08-11T08:34:47.577+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:47.577+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:34:47.588+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:47.588+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-08-11T08:34:47.612+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.087 seconds

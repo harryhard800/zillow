@@ -1,0 +1,40 @@
+[2024-08-11T08:29:41.120+0000] {processor.py:161} INFO - Started process (PID=2866) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:29:41.120+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-08-11T08:29:41.122+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:41.121+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:29:41.124+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:29:41.133+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.018 seconds
+[2024-08-11T08:30:34.586+0000] {processor.py:161} INFO - Started process (PID=3018) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:30:34.589+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-08-11T08:30:34.590+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:34.590+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:30:34.593+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:30:34.604+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds
+[2024-08-11T08:31:17.478+0000] {processor.py:161} INFO - Started process (PID=3232) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:31:17.480+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-08-11T08:31:17.481+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:17.481+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:31:17.483+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:31:17.494+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.022 seconds
+[2024-08-11T08:31:59.083+0000] {processor.py:161} INFO - Started process (PID=3284) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:31:59.085+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-08-11T08:31:59.086+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:59.086+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:31:59.089+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:31:59.098+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.021 seconds
+[2024-08-11T08:32:37.554+0000] {processor.py:161} INFO - Started process (PID=3324) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:32:37.555+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-08-11T08:32:37.557+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:37.556+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:32:37.560+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:32:37.569+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.021 seconds
+[2024-08-11T08:33:19.090+0000] {processor.py:161} INFO - Started process (PID=3368) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:33:19.093+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-08-11T08:33:19.095+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:19.094+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:33:19.097+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:33:19.107+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds
+[2024-08-11T08:33:56.238+0000] {processor.py:161} INFO - Started process (PID=3408) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:33:56.242+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-08-11T08:33:56.243+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:56.243+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:33:56.245+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:33:56.255+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.022 seconds
+[2024-08-11T08:34:36.262+0000] {processor.py:161} INFO - Started process (PID=3454) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:34:36.263+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-08-11T08:34:36.264+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:36.264+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:34:36.266+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-08-11T08:34:36.277+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py took 0.020 seconds

@@ -1,0 +1,39 @@
+[2024-08-11T08:30:17.882+0000] {processor.py:161} INFO - Started process (PID=2995) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:30:17.882+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-11T08:30:17.884+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:17.883+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:30:17.891+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:30:17.983+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:17.981+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-08-11T08:30:17.993+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:17.993+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_complex
+[2024-08-11T08:30:18.000+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:18.000+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-08-11T08:30:18.000+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:18.000+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:30:18.009+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:18.009+0000] {dag.py:3111} INFO - Creating ORM DAG for example_complex
+[2024-08-11T08:30:18.009+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:18.009+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-11T08:30:18.031+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.154 seconds
+[2024-08-11T08:31:08.353+0000] {processor.py:161} INFO - Started process (PID=3223) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:31:08.354+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-11T08:31:08.356+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:08.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:31:08.365+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:31:08.390+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:08.390+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:31:08.400+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:08.400+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-11T08:31:08.419+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.071 seconds
+[2024-08-11T08:32:09.218+0000] {processor.py:161} INFO - Started process (PID=3294) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:32:09.219+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-11T08:32:09.221+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:09.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:32:09.229+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:32:09.253+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:09.253+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:32:09.264+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:09.264+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-11T08:32:09.285+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.073 seconds
+[2024-08-11T08:33:10.221+0000] {processor.py:161} INFO - Started process (PID=3358) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:33:10.224+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-11T08:33:10.225+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:10.225+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:33:10.235+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:33:10.259+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:10.259+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:33:10.268+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:10.268+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-11T08:33:10.293+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.077 seconds
+[2024-08-11T08:34:06.530+0000] {processor.py:161} INFO - Started process (PID=3419) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:34:06.531+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-11T08:34:06.533+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:06.532+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:34:06.541+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-08-11T08:34:06.564+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:06.564+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:34:06.575+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:06.575+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-11T08:34:06.597+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.073 seconds

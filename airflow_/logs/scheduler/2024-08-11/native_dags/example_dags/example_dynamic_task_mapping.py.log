@@ -1,0 +1,46 @@
+[2024-08-11T08:30:11.292+0000] {processor.py:161} INFO - Started process (PID=2989) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:30:11.293+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-08-11T08:30:11.294+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.294+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:30:11.302+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:30:11.421+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.421+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_dynamic_task_mapping
+[2024-08-11T08:30:11.436+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.436+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_dynamic_task_mapping
+[2024-08-11T08:30:11.449+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.449+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_dynamic_task_mapping
+[2024-08-11T08:30:11.450+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.449+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:30:11.458+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.458+0000] {dag.py:3111} INFO - Creating ORM DAG for example_dynamic_task_mapping
+[2024-08-11T08:30:11.465+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:11.465+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-08-11T08:30:11.495+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.209 seconds
+[2024-08-11T08:31:02.608+0000] {processor.py:161} INFO - Started process (PID=3217) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:31:02.609+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-08-11T08:31:02.612+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:02.610+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:31:02.619+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:31:02.633+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:02.633+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:31:02.649+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:02.649+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-08-11T08:31:02.669+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.067 seconds
+[2024-08-11T08:31:50.893+0000] {processor.py:161} INFO - Started process (PID=3276) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:31:50.896+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-08-11T08:31:50.897+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:50.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:31:50.904+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:31:50.917+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:50.917+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:31:50.935+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:50.935+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-08-11T08:31:50.954+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.065 seconds
+[2024-08-11T08:32:51.381+0000] {processor.py:161} INFO - Started process (PID=3338) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:32:51.383+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-08-11T08:32:51.384+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:51.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:32:51.392+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:32:51.405+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:51.405+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:32:51.422+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:51.422+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-08-11T08:32:51.446+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.070 seconds
+[2024-08-11T08:33:47.681+0000] {processor.py:161} INFO - Started process (PID=3399) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:33:47.683+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-08-11T08:33:47.685+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:47.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:33:47.692+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:33:47.714+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:47.714+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:33:47.732+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:47.731+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-08-11T08:33:47.756+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.080 seconds
+[2024-08-11T08:34:48.665+0000] {processor.py:161} INFO - Started process (PID=3467) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:34:48.667+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-08-11T08:34:48.667+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:48.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:34:48.675+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-08-11T08:34:48.689+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:48.689+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:34:48.705+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:48.705+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-08-11T08:34:48.727+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.069 seconds

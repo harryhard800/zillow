@@ -1,0 +1,48 @@
+[2024-08-11T08:30:16.186+0000] {processor.py:161} INFO - Started process (PID=2993) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:30:16.187+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-08-11T08:30:16.188+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.188+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:30:16.195+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:30:16.295+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.295+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_external_task_marker_child
+[2024-08-11T08:30:16.308+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.308+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_external_task_marker_child
+[2024-08-11T08:30:16.318+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.317+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_external_task_marker_child
+[2024-08-11T08:30:16.339+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.339+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_external_task_marker_parent
+[2024-08-11T08:30:16.349+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.348+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_external_task_marker_parent
+[2024-08-11T08:30:16.357+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.357+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_external_task_marker_parent
+[2024-08-11T08:30:16.358+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.358+0000] {dag.py:3089} INFO - Sync 2 DAGs
+[2024-08-11T08:30:16.367+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.366+0000] {dag.py:3111} INFO - Creating ORM DAG for example_external_task_marker_child
+[2024-08-11T08:30:16.368+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.368+0000] {dag.py:3111} INFO - Creating ORM DAG for example_external_task_marker_parent
+[2024-08-11T08:30:16.368+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.368+0000] {dag.py:3947} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-08-11T08:30:16.368+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:16.368+0000] {dag.py:3947} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-08-11T08:30:16.390+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.210 seconds
+[2024-08-11T08:31:06.212+0000] {processor.py:161} INFO - Started process (PID=3221) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:31:06.214+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-08-11T08:31:06.215+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:06.215+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:31:06.220+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:31:06.234+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:06.234+0000] {dag.py:3089} INFO - Sync 2 DAGs
+[2024-08-11T08:31:06.242+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:06.242+0000] {dag.py:3947} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-08-11T08:31:06.244+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:06.244+0000] {dag.py:3947} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-08-11T08:31:06.261+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.053 seconds
+[2024-08-11T08:32:06.952+0000] {processor.py:161} INFO - Started process (PID=3292) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:32:06.954+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-08-11T08:32:06.955+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:06.955+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:32:06.962+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:32:06.979+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:06.979+0000] {dag.py:3089} INFO - Sync 2 DAGs
+[2024-08-11T08:32:06.989+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:06.989+0000] {dag.py:3947} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-08-11T08:32:06.993+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:06.993+0000] {dag.py:3947} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-08-11T08:32:07.011+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.064 seconds
+[2024-08-11T08:33:07.953+0000] {processor.py:161} INFO - Started process (PID=3356) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:33:07.955+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-08-11T08:33:07.956+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:07.956+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:33:07.962+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:33:07.980+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:07.979+0000] {dag.py:3089} INFO - Sync 2 DAGs
+[2024-08-11T08:33:07.990+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:07.990+0000] {dag.py:3947} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-08-11T08:33:07.993+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:07.993+0000] {dag.py:3947} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-08-11T08:33:08.013+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.065 seconds
+[2024-08-11T08:34:04.263+0000] {processor.py:161} INFO - Started process (PID=3417) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:34:04.265+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-08-11T08:34:04.267+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:04.266+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:34:04.273+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-08-11T08:34:04.291+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:04.291+0000] {dag.py:3089} INFO - Sync 2 DAGs
+[2024-08-11T08:34:04.301+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:04.301+0000] {dag.py:3947} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-08-11T08:34:04.304+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:04.304+0000] {dag.py:3947} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-08-11T08:34:04.325+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.068 seconds

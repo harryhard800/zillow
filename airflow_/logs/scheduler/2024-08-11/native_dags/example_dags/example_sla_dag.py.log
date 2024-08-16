@@ -1,0 +1,46 @@
+[2024-08-11T08:30:00.549+0000] {processor.py:161} INFO - Started process (PID=2978) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:30:00.549+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-08-11T08:30:00.552+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:00.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:30:00.560+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:30:00.667+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:00.666+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2024-08-11T08:30:00.681+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:00.680+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2024-08-11T08:30:00.693+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:00.692+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2024-08-11T08:30:00.693+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:00.693+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:30:00.701+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:00.700+0000] {dag.py:3111} INFO - Creating ORM DAG for example_sla_dag
+[2024-08-11T08:30:00.710+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:00.710+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2024-08-11 08:28:00+00:00, run_after=2024-08-11 08:30:00+00:00
+[2024-08-11T08:30:00.731+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.187 seconds
+[2024-08-11T08:30:51.552+0000] {processor.py:161} INFO - Started process (PID=3184) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:30:51.554+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-08-11T08:30:51.557+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:51.556+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:30:51.564+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:30:51.580+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:51.580+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:30:51.600+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:51.600+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2024-08-11 08:28:00+00:00, run_after=2024-08-11 08:30:00+00:00
+[2024-08-11T08:30:51.620+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.074 seconds
+[2024-08-11T08:31:41.394+0000] {processor.py:161} INFO - Started process (PID=3264) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:31:41.397+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-08-11T08:31:41.399+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:41.398+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:31:41.407+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:31:41.421+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:41.421+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:31:41.440+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:41.440+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2024-08-11 08:28:00+00:00, run_after=2024-08-11 08:30:00+00:00
+[2024-08-11T08:31:41.462+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.074 seconds
+[2024-08-11T08:32:24.507+0000] {processor.py:161} INFO - Started process (PID=3310) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:32:24.508+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-08-11T08:32:24.510+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:24.509+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:32:24.519+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:32:24.532+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:24.532+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:32:24.552+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:24.551+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2024-08-11 08:30:00+00:00, run_after=2024-08-11 08:32:00+00:00
+[2024-08-11T08:32:24.573+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.072 seconds
+[2024-08-11T08:33:06.515+0000] {processor.py:161} INFO - Started process (PID=3354) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:33:06.517+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-08-11T08:33:06.519+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:06.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:33:06.527+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:33:06.541+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:06.541+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:33:06.561+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:06.560+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2024-08-11 08:30:00+00:00, run_after=2024-08-11 08:32:00+00:00
+[2024-08-11T08:33:06.585+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.076 seconds
+[2024-08-11T08:34:01.987+0000] {processor.py:161} INFO - Started process (PID=3414) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:34:01.990+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-08-11T08:34:01.992+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:01.991+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:34:02.000+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-08-11T08:34:02.014+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:02.014+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:34:02.033+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:02.033+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2024-08-11 08:32:00+00:00, run_after=2024-08-11 08:34:00+00:00
+[2024-08-11T08:34:02.054+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.074 seconds

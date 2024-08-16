@@ -1,0 +1,37 @@
+[2024-08-11T10:25:41.644+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-11T10:25:41.660+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Zillow_Analytics_DAG.load_to_s3_bucket_zillowapibucket manual__2024-08-11T10:22:20.466902+00:00 [queued]>
+[2024-08-11T10:25:41.664+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Zillow_Analytics_DAG.load_to_s3_bucket_zillowapibucket manual__2024-08-11T10:22:20.466902+00:00 [queued]>
+[2024-08-11T10:25:41.664+0000] {taskinstance.py:2306} INFO - Starting attempt 3 of 4
+[2024-08-11T10:25:41.683+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): load_to_s3_bucket_zillowapibucket> on 2024-08-11 10:22:20.466902+00:00
+[2024-08-11T10:25:41.686+0000] {standard_task_runner.py:64} INFO - Started process 4312 to run task
+[2024-08-11T10:25:41.688+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'Zillow_Analytics_DAG', 'load_to_s3_bucket_zillowapibucket', 'manual__2024-08-11T10:22:20.466902+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/zillowrapidapi.py', '--cfg-path', '/tmp/tmpmbj5kxqp']
+[2024-08-11T10:25:41.690+0000] {standard_task_runner.py:91} INFO - Job 40: Subtask load_to_s3_bucket_zillowapibucket
+[2024-08-11T10:25:41.724+0000] {task_command.py:426} INFO - Running <TaskInstance: Zillow_Analytics_DAG.load_to_s3_bucket_zillowapibucket manual__2024-08-11T10:22:20.466902+00:00 [running]> on host ip-172-31-11-55.ap-south-1.compute.internal
+[2024-08-11T10:25:41.787+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='vkkr800@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Zillow_Analytics_DAG' AIRFLOW_CTX_TASK_ID='load_to_s3_bucket_zillowapibucket' AIRFLOW_CTX_EXECUTION_DATE='2024-08-11T10:22:20.466902+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-11T10:22:20.466902+00:00'
+[2024-08-11T10:25:41.787+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-11T10:25:41.797+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-08-11T10:25:41.798+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'aws s3 mv /home/ubuntu/response_data_11082024102222.json s3://zillow-api-bucket-1st/']
+[2024-08-11T10:25:41.805+0000] {subprocess.py:86} INFO - Output:
+[2024-08-11T10:25:42.197+0000] {subprocess.py:93} INFO - 
+[2024-08-11T10:25:42.198+0000] {subprocess.py:93} INFO - The user-provided path /home/ubuntu/response_data_11082024102222.json does not exist.
+[2024-08-11T10:25:42.260+0000] {subprocess.py:97} INFO - Command exited with return code 255
+[2024-08-11T10:25:42.260+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-11T10:25:42.267+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 255.
+[2024-08-11T10:25:42.270+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=Zillow_Analytics_DAG, task_id=load_to_s3_bucket_zillowapibucket, run_id=manual__2024-08-11T10:22:20.466902+00:00, execution_date=20240811T102220, start_date=20240811T102541, end_date=20240811T102542
+[2024-08-11T10:25:42.284+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 40 for task load_to_s3_bucket_zillowapibucket (Bash command failed. The command returned a non-zero exit code 255.; 4312)
+[2024-08-11T10:25:42.303+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2024-08-11T10:25:42.313+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-11T10:25:42.314+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

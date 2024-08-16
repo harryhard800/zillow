@@ -1,0 +1,46 @@
+[2024-08-11T08:30:13.871+0000] {processor.py:161} INFO - Started process (PID=2991) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:30:13.872+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-08-11T08:30:13.874+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:13.873+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:30:13.880+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:30:13.984+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:13.982+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2024-08-11T08:30:13.994+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:13.993+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2024-08-11T08:30:14.002+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:14.002+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2024-08-11T08:30:14.002+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:14.002+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:30:14.010+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:14.010+0000] {dag.py:3111} INFO - Creating ORM DAG for latest_only_with_trigger
+[2024-08-11T08:30:14.018+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:14.018+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-08-11 04:00:00+00:00, run_after=2024-08-11 08:00:00+00:00
+[2024-08-11T08:30:14.038+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.172 seconds
+[2024-08-11T08:31:04.353+0000] {processor.py:161} INFO - Started process (PID=3219) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:31:04.355+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-08-11T08:31:04.356+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:04.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:31:04.362+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:31:04.378+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:04.378+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:31:04.396+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:04.396+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-08-11 04:00:00+00:00, run_after=2024-08-11 08:00:00+00:00
+[2024-08-11T08:31:04.416+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.068 seconds
+[2024-08-11T08:31:53.160+0000] {processor.py:161} INFO - Started process (PID=3278) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:31:53.162+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-08-11T08:31:53.164+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:53.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:31:53.169+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:31:53.186+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:53.186+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:31:53.204+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:53.204+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-08-11 04:00:00+00:00, run_after=2024-08-11 08:00:00+00:00
+[2024-08-11T08:31:53.228+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.074 seconds
+[2024-08-11T08:32:53.647+0000] {processor.py:161} INFO - Started process (PID=3340) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:32:53.649+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-08-11T08:32:53.652+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:53.652+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:32:53.657+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:32:53.672+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:53.672+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:32:53.689+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:53.688+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-08-11 04:00:00+00:00, run_after=2024-08-11 08:00:00+00:00
+[2024-08-11T08:32:53.712+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.071 seconds
+[2024-08-11T08:33:49.591+0000] {processor.py:161} INFO - Started process (PID=3402) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:33:49.593+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-08-11T08:33:49.595+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:49.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:33:49.600+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:33:49.616+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:49.616+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:33:49.633+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:49.632+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-08-11 04:00:00+00:00, run_after=2024-08-11 08:00:00+00:00
+[2024-08-11T08:33:49.657+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.073 seconds
+[2024-08-11T08:34:50.401+0000] {processor.py:161} INFO - Started process (PID=3469) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:34:50.404+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-08-11T08:34:50.404+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:50.404+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:34:50.410+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-08-11T08:34:50.426+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:50.425+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:34:50.442+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:50.442+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-08-11 04:00:00+00:00, run_after=2024-08-11 08:00:00+00:00
+[2024-08-11T08:34:50.467+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.070 seconds

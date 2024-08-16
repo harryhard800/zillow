@@ -1,0 +1,104 @@
+[2024-08-11T13:32:55.956+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-11T13:32:55.966+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Zillow_Analytics_DAG.is_file_in_s3 scheduled__2024-08-10T00:00:00+00:00 [queued]>
+[2024-08-11T13:32:55.972+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Zillow_Analytics_DAG.is_file_in_s3 scheduled__2024-08-10T00:00:00+00:00 [queued]>
+[2024-08-11T13:32:55.972+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-08-11T13:32:55.989+0000] {taskinstance.py:2330} INFO - Executing <Task(S3KeySensor): is_file_in_s3> on 2024-08-10 00:00:00+00:00
+[2024-08-11T13:32:55.992+0000] {standard_task_runner.py:64} INFO - Started process 6956 to run task
+[2024-08-11T13:32:55.995+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'Zillow_Analytics_DAG', 'is_file_in_s3', 'scheduled__2024-08-10T00:00:00+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/zillowrapidapi.py', '--cfg-path', '/tmp/tmpgeas3v9a']
+[2024-08-11T13:32:55.996+0000] {standard_task_runner.py:91} INFO - Job 78: Subtask is_file_in_s3
+[2024-08-11T13:32:56.034+0000] {task_command.py:426} INFO - Running <TaskInstance: Zillow_Analytics_DAG.is_file_in_s3 scheduled__2024-08-10T00:00:00+00:00 [running]> on host ip-172-31-11-55.ap-south-1.compute.internal
+[2024-08-11T13:32:56.109+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='vkkr800@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Zillow_Analytics_DAG' AIRFLOW_CTX_TASK_ID='is_file_in_s3' AIRFLOW_CTX_EXECUTION_DATE='2024-08-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-10T00:00:00+00:00'
+[2024-08-11T13:32:56.110+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-11T13:32:56.121+0000] {baseoperator.py:400} WARNING - S3KeySensor.execute cannot be called outside TaskInstance!
+[2024-08-11T13:32:56.121+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:32:56.126+0000] {base.py:84} INFO - Using connection ID 'aws_s3_conn' for task execution.
+[2024-08-11T13:32:56.127+0000] {connection_wrapper.py:388} INFO - AWS Connection (conn_id='aws_s3_conn', conn_type='aws') credentials retrieved from login and password.
+[2024-08-11T13:33:01.513+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:06.521+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:11.533+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:16.543+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:21.553+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:26.562+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:31.571+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:36.580+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:41.589+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:46.597+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:51.606+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:56.616+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133242.json
+[2024-08-11T13:33:56.627+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-11T13:33:56.627+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 189, in execute
+    super().execute(context)
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/sensors/base.py", line 281, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 60.505358358001104 seconds exceeds the specified timeout of 60.0.
+[2024-08-11T13:33:56.630+0000] {taskinstance.py:1206} INFO - Immediate failure requested. Marking task as FAILED. dag_id=Zillow_Analytics_DAG, task_id=is_file_in_s3, run_id=scheduled__2024-08-10T00:00:00+00:00, execution_date=20240810T000000, start_date=20240811T133255, end_date=20240811T133356
+[2024-08-11T13:33:56.644+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 78 for task is_file_in_s3 (Sensor has timed out; run duration of 60.505358358001104 seconds exceeds the specified timeout of 60.0.; 6956)
+[2024-08-11T13:33:56.669+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2024-08-11T13:33:56.677+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-11T13:33:56.677+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-08-11T13:35:12.825+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-11T13:35:12.837+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Zillow_Analytics_DAG.is_file_in_s3 scheduled__2024-08-10T00:00:00+00:00 [queued]>
+[2024-08-11T13:35:12.842+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Zillow_Analytics_DAG.is_file_in_s3 scheduled__2024-08-10T00:00:00+00:00 [queued]>
+[2024-08-11T13:35:12.842+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-08-11T13:35:12.858+0000] {taskinstance.py:2330} INFO - Executing <Task(S3KeySensor): is_file_in_s3> on 2024-08-10 00:00:00+00:00
+[2024-08-11T13:35:12.861+0000] {standard_task_runner.py:64} INFO - Started process 6984 to run task
+[2024-08-11T13:35:12.864+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'Zillow_Analytics_DAG', 'is_file_in_s3', 'scheduled__2024-08-10T00:00:00+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/zillowrapidapi.py', '--cfg-path', '/tmp/tmpjfqw73pj']
+[2024-08-11T13:35:12.865+0000] {standard_task_runner.py:91} INFO - Job 84: Subtask is_file_in_s3
+[2024-08-11T13:35:12.903+0000] {task_command.py:426} INFO - Running <TaskInstance: Zillow_Analytics_DAG.is_file_in_s3 scheduled__2024-08-10T00:00:00+00:00 [running]> on host ip-172-31-11-55.ap-south-1.compute.internal
+[2024-08-11T13:35:12.974+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='vkkr800@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Zillow_Analytics_DAG' AIRFLOW_CTX_TASK_ID='is_file_in_s3' AIRFLOW_CTX_EXECUTION_DATE='2024-08-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-10T00:00:00+00:00'
+[2024-08-11T13:35:12.974+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-11T13:35:12.984+0000] {baseoperator.py:400} WARNING - S3KeySensor.execute cannot be called outside TaskInstance!
+[2024-08-11T13:35:12.985+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:35:12.989+0000] {base.py:84} INFO - Using connection ID 'aws_s3_conn' for task execution.
+[2024-08-11T13:35:12.989+0000] {connection_wrapper.py:388} INFO - AWS Connection (conn_id='aws_s3_conn', conn_type='aws') credentials retrieved from login and password.
+[2024-08-11T13:35:18.318+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:35:23.327+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:35:28.338+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:35:33.348+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:35:38.360+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:35:43.370+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:35:48.378+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:35:53.386+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:35:58.395+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:36:03.404+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:36:08.414+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:36:13.421+0000] {s3.py:118} INFO - Poking for key : s3://zillow-api-third-bucket//home/ubuntu/response_data_11082024133501.json
+[2024-08-11T13:36:13.431+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-11T13:36:13.432+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 189, in execute
+    super().execute(context)
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/sensors/base.py", line 281, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 60.44650785999693 seconds exceeds the specified timeout of 60.0.
+[2024-08-11T13:36:13.435+0000] {taskinstance.py:1206} INFO - Immediate failure requested. Marking task as FAILED. dag_id=Zillow_Analytics_DAG, task_id=is_file_in_s3, run_id=scheduled__2024-08-10T00:00:00+00:00, execution_date=20240810T000000, start_date=20240811T133512, end_date=20240811T133613
+[2024-08-11T13:36:13.449+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 84 for task is_file_in_s3 (Sensor has timed out; run duration of 60.44650785999693 seconds exceeds the specified timeout of 60.0.; 6984)
+[2024-08-11T13:36:13.488+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2024-08-11T13:36:13.496+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-11T13:36:13.497+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,53 @@
+[2024-08-11T08:29:59.319+0000] {processor.py:161} INFO - Started process (PID=2977) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:29:59.320+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-08-11T08:29:59.321+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:59.321+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:29:59.328+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:29:59.436+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:59.435+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2024-08-11T08:29:59.449+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:59.449+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2024-08-11T08:29:59.459+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:59.459+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2024-08-11T08:29:59.460+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:59.460+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:29:59.466+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:59.466+0000] {dag.py:3111} INFO - Creating ORM DAG for example_setup_teardown
+[2024-08-11T08:29:59.472+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:59.472+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T08:29:59.495+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.182 seconds
+[2024-08-11T08:30:50.418+0000] {processor.py:161} INFO - Started process (PID=3183) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:30:50.420+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-08-11T08:30:50.422+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:50.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:30:50.429+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:30:50.445+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:50.445+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:30:50.461+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:50.461+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T08:30:50.484+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.072 seconds
+[2024-08-11T08:31:40.261+0000] {processor.py:161} INFO - Started process (PID=3263) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:31:40.263+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-08-11T08:31:40.264+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:40.264+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:31:40.271+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:31:40.287+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:40.287+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:31:40.304+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:40.303+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T08:31:40.325+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.069 seconds
+[2024-08-11T08:32:23.375+0000] {processor.py:161} INFO - Started process (PID=3309) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:32:23.377+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-08-11T08:32:23.379+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:23.379+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:32:23.385+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:32:23.401+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:23.401+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:32:23.421+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:23.421+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T08:32:23.440+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.072 seconds
+[2024-08-11T08:33:05.918+0000] {processor.py:161} INFO - Started process (PID=3353) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:33:05.920+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-08-11T08:33:05.922+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:05.921+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:33:05.929+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:33:05.944+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:05.943+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:33:05.961+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:05.961+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T08:33:05.984+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.072 seconds
+[2024-08-11T08:34:00.855+0000] {processor.py:161} INFO - Started process (PID=3413) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:34:00.857+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-08-11T08:34:00.859+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:00.858+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:34:00.866+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:34:00.881+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:00.881+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:34:00.899+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:00.898+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T08:34:00.924+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.075 seconds
+[2024-08-11T08:34:40.255+0000] {processor.py:161} INFO - Started process (PID=3459) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:34:40.258+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-08-11T08:34:40.258+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:40.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:34:40.266+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-08-11T08:34:40.281+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:40.281+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:34:40.297+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:40.297+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2024-08-10 00:00:00+00:00, run_after=2024-08-11 00:00:00+00:00
+[2024-08-11T08:34:40.323+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.074 seconds

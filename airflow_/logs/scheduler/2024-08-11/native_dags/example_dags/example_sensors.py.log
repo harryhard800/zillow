@@ -1,0 +1,53 @@
+[2024-08-11T08:29:55.611+0000] {processor.py:161} INFO - Started process (PID=2934) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:29:55.611+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-11T08:29:55.613+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:55.612+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:29:55.619+0000] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:29:55.711+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:55.710+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-08-11T08:29:55.728+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:55.728+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-08-11T08:29:55.736+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:55.736+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-08-11T08:29:55.737+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:55.736+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:29:55.744+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:55.744+0000] {dag.py:3111} INFO - Creating ORM DAG for example_sensors
+[2024-08-11T08:29:55.744+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:29:55.744+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-11T08:29:55.766+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.160 seconds
+[2024-08-11T08:30:47.788+0000] {processor.py:161} INFO - Started process (PID=3034) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:30:47.789+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-11T08:30:47.791+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:47.791+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:30:47.799+0000] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:30:47.819+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:47.819+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:30:47.829+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:30:47.828+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-11T08:30:47.847+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.065 seconds
+[2024-08-11T08:31:37.742+0000] {processor.py:161} INFO - Started process (PID=3260) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:31:37.744+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-11T08:31:37.746+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:37.745+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:31:37.754+0000] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:31:37.773+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:37.773+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:31:37.784+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:31:37.784+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-11T08:31:37.803+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.066 seconds
+[2024-08-11T08:32:20.253+0000] {processor.py:161} INFO - Started process (PID=3306) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:32:20.258+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-11T08:32:20.259+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:20.259+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:32:20.268+0000] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:32:20.287+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:20.287+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:32:20.297+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:32:20.297+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-11T08:32:20.321+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.072 seconds
+[2024-08-11T08:33:02.522+0000] {processor.py:161} INFO - Started process (PID=3350) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:33:02.523+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-11T08:33:02.524+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:02.524+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:33:02.532+0000] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:33:02.550+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:02.550+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:33:02.561+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:02.561+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-11T08:33:02.585+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.068 seconds
+[2024-08-11T08:33:57.974+0000] {processor.py:161} INFO - Started process (PID=3410) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:33:57.976+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-11T08:33:57.978+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:57.977+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:33:57.987+0000] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:33:58.006+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:58.005+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:33:58.016+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:33:58.016+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-11T08:33:58.040+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.072 seconds
+[2024-08-11T08:34:38.402+0000] {processor.py:161} INFO - Started process (PID=3456) to work on /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:34:38.403+0000] {processor.py:830} INFO - Processing file /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-11T08:34:38.404+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:38.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:34:38.413+0000] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-11T08:34:38.431+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:38.431+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-11T08:34:38.441+0000] {logging_mixin.py:188} INFO - [2024-08-11T08:34:38.441+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-11T08:34:38.465+0000] {processor.py:183} INFO - Processing /home/ubuntu/zilloapi/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.069 seconds
